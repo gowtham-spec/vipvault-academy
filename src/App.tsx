@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> f507ca0f4eef5be4db7aa08fa7a3dbd0b782af40
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+<<<<<<< HEAD
 import { AuthProvider } from "@/contexts/AuthContext";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Index from "./pages/Index";
@@ -50,10 +54,16 @@ import VeteransPrograms from "./pages/degrees/VeteransPrograms";
 import SecurityAwareness from "./pages/advisory/SecurityAwareness";
 import GlobalServices from "./pages/advisory/GlobalServices";
 
+=======
+import Index from "./pages/Index";
+import NotFound from "./pages/NotFound";
+
+>>>>>>> f507ca0f4eef5be4db7aa08fa7a3dbd0b782af40
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
+<<<<<<< HEAD
     <ThemeProvider
       attribute="class"
       defaultTheme="system"
@@ -114,6 +124,19 @@ const App = () => (
       </TooltipProvider>
     </AuthProvider>
   </ThemeProvider>
+=======
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </TooltipProvider>
+>>>>>>> f507ca0f4eef5be4db7aa08fa7a3dbd0b782af40
   </QueryClientProvider>
 );
 

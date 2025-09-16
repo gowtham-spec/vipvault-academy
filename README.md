@@ -2,7 +2,11 @@
 
 ## Project info
 
+<<<<<<< HEAD
 **URL**: https://lovable.dev/projects/ce9794b8-5c7a-41cd-aecd-6c8c33d379dc
+=======
+**URL**: https://lovable.dev/projects/337d7ece-9c9f-4683-aa49-c46147428f2d
+>>>>>>> f507ca0f4eef5be4db7aa08fa7a3dbd0b782af40
 
 ## How can I edit this code?
 
@@ -10,7 +14,11 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
+<<<<<<< HEAD
 Simply visit the [Lovable Project](https://lovable.dev/projects/ce9794b8-5c7a-41cd-aecd-6c8c33d379dc) and start prompting.
+=======
+Simply visit the [Lovable Project](https://lovable.dev/projects/337d7ece-9c9f-4683-aa49-c46147428f2d) and start prompting.
+>>>>>>> f507ca0f4eef5be4db7aa08fa7a3dbd0b782af40
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -62,7 +70,11 @@ This project is built with:
 
 ## How can I deploy this project?
 
+<<<<<<< HEAD
 Simply open [Lovable](https://lovable.dev/projects/ce9794b8-5c7a-41cd-aecd-6c8c33d379dc) and click on Share -> Publish.
+=======
+Simply open [Lovable](https://lovable.dev/projects/337d7ece-9c9f-4683-aa49-c46147428f2d) and click on Share -> Publish.
+>>>>>>> f507ca0f4eef5be4db7aa08fa7a3dbd0b782af40
 
 ## Can I connect a custom domain to my Lovable project?
 
@@ -70,4 +82,8 @@ Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
+<<<<<<< HEAD
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+=======
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+>>>>>>> f507ca0f4eef5be4db7aa08fa7a3dbd0b782af40
