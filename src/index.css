@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cybersecurity Academy Design System - Professional Cybersecurity Education Platform
+All colors MUST be HSL to match cybersecurity theme.
+*/
+
+@layer base {
+  :root {
+    /* Core Cybersecurity Brand Colors */
+    --cyber-gold: 45 100% 51%; /* #FFD700 */
+    --cyber-dark: 210 20% 15%; /* #202938 */
+    --cyber-darker: 210 25% 8%; /* #0F1419 */
+    --cyber-gray: 210 10% 23%; /* #353B48 */
+    --cyber-light-gray: 210 15% 85%; /* #D1D5DB */
+    
+    /* Light theme mapping */
+    --background: 0 0% 100%;
+    --foreground: 210 25% 8%; /* cyber-darker */
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 25% 8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 25% 8%;
+
+    --primary: 45 100% 51%; /* cyber-gold */
+    --primary-foreground: 210 25% 8%;
+
+    --secondary: 210 20% 15%; /* cyber-dark */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 210 10% 40%;
+
+    --accent: 45 100% 51%;
+    --accent-foreground: 210 25% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 99%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 45 100% 51%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 210 25% 8%; /* cyber-darker */
+    --foreground: 0 0% 99%;
+
+    --card: 210 20% 15%; /* cyber-dark */
+    --card-foreground: 0 0% 99%;
+
+    --popover: 210 20% 15%;
+    --popover-foreground: 0 0% 99%;
+
+    --primary: 45 100% 51%; /* cyber-gold */
+    --primary-foreground: 210 25% 8%;
+
+    --secondary: 210 10% 23%; /* cyber-gray */
+    --secondary-foreground: 0 0% 99%;
+
+    --muted: 210 15% 20%;
+    --muted-foreground: 210 15% 70%;
+
+    --accent: 45 100% 51%;
+    --accent-foreground: 210 25% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 99%;
+
+    --border: 210 15% 20%;
+    --input: 210 15% 20%;
+    --ring: 45 100% 51%;
+    --sidebar-background: 246 26% 20%;
+    --sidebar-foreground: 0 0% 99%;
+    --sidebar-primary: 205 50% 60%;
+    --sidebar-primary-foreground: 246 26% 20%;
+    --sidebar-accent: 250 15% 25%;
+    --sidebar-accent-foreground: 0 0% 99%;
+    --sidebar-border: 250 15% 25%;
+    --sidebar-ring: 205 50% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-cabin;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-raleway font-bold;
+  }
+}
